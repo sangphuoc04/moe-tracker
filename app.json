@@ -3,6 +3,8 @@
     "name": "moe-tracker",
     "slug": "moe-tracker",
     "version": "1.0.0",
+    "scheme": "expense-tracker",
+    "plugins": ["expo-router"],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,6 +27,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ]
   }
 }
